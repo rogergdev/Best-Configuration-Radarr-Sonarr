@@ -1,7 +1,11 @@
 # ARR Suite - The Absolute Best Configuration (Radarr & Sonarr)
 ## The Ultimate GOD SETUP by Roger para que las descargas estén es español de españa, priorice los codecs mas eficientes y rechace opciones menos interesantes.
+![image](https://github.com/user-attachments/assets/4f91da37-679c-4989-a446-12f7b2fe1f74)
+
 ### ⚙️ Settings/IU 
-**La interfaz tiene estar en ingés**, pero puedes opcionalmente (ya que es personal, mas no necesario) ajustar toda la configuración de UI como la imagen.
+**La interfaz tiene estar en ingés**, pero puedes opcionalmente (ya que es personal, pero no necesario) ajustar toda la configuración de UI como la imagen. 
+**Tienes que habilitar Show Advanced (el engranaje en la parte superior)** para mostrar los ajustes avanzados.
+![image](https://github.com/user-attachments/assets/757d9a65-f8fa-4ede-8524-838971bede2c)
 
 ### 🎯 Settings/Custom Formats
 Así se importan los Custom Formats en formato json (en Sonarr es igual), si tienen ya Custom Formats construidos puedes borrarlos todos y ponerlos:
@@ -200,6 +204,13 @@ Así se importan los Custom Formats en formato json (en Sonarr es igual), si tie
 ```
 
 ---
+
+### ⚙️ Settings/Quality
+![image](https://github.com/user-attachments/assets/ab041763-906f-43df-b8ed-a5d2c0a68c09)
+
+---
+### ⚙️ Settings/Profiles
+
 
 ✍️ **Autor:** Roger  
 📌 **Última actualización:** *(Fecha de edición)*  
