@@ -223,6 +223,213 @@ https://github.com/user-attachments/assets/345aad1e-410c-4d3b-98b7-fab7b9cea320
 #### 📌 Ultra-HD
 ![image](https://github.com/user-attachments/assets/4acd5c95-a136-4199-91e5-6567a012a99c)
 
+------
+Ahora vamos a configurar a Sonarr, iré más al grano ya que hay que hacerle lo mismo que hicimos a Radarr: 
 
+![image](https://github.com/user-attachments/assets/e137f1a5-7dd5-4622-b38a-a3921bf02cad)
+
+
+### ⚙️ Settings/IU 
+![image](https://github.com/user-attachments/assets/7b551afa-2f79-4387-a635-9696d65e4830)
+
+### 🎯 Settings/Custom Formats
+
+#### 📌 420p
+```json
+{
+  "name": "420p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "420p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 480
+      }
+    }
+  ]
+}
+```
+
+#### 📌 720p
+```json
+{
+  "name": "720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "720p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 720
+      }
+    }
+  ]
+}
+```
+
+#### 📌 1080p
+```json
+{
+  "name": "1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "1080p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1080
+      }
+    }
+  ]
+}
+```
+
+#### 📌 2160p
+```json
+{
+  "name": "2160p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}
+```
+
+#### 📌 Multi (Spanish)
+```json
+{
+  "name": "Multi (Spanish)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Multi-Languages Required",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3,
+        "exceptLanguage": true
+      }
+    },
+    {
+      "name": "Spanish Required in Multi-Languages",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3,
+        "exceptLanguage": false
+      }
+    }
+  ]
+}
+```
+
+#### 📌 Only Spanish
+```json
+{
+  "name": "Only Spanish",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Spanish Only",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3,
+        "exceptLanguage": false
+      }
+    },
+    {
+      "name": "Exclude Multi-Languages",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 3,
+        "exceptLanguage": true
+      }
+    }
+  ]
+}
+```
+
+#### 📌 Spanish (Latino) Reject
+```json
+{
+  "name": "Spanish (Latino) Reject",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Latino/Mexican Spanish",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?i)\\b(latino|mexican|mex|arg|argentina|colombia|andes)\\b"
+      }
+    }
+  ]
+}
+```
+
+### 📌 Códecs
+
+#### 📌 x264
+```json
+{
+  "name": "x264",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "x264/H264/AVC",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(x264|h264|avc)"
+      }
+    }
+  ]
+}
+```
+
+#### 📌 x265
+```json
+{
+  "name": "x265",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "x265/H265/HEVC",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(x265|h265|hevc)"
+      }
+    }
+  ]
+}
+```
+
+
+---
 ✍️ **Autor:** Roger  
 🚀 **Optimizado para:** Radarr, Sonarr y ARR Suite
