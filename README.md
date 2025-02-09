@@ -210,8 +210,19 @@ Así se importan los Custom Formats en formato json (en Sonarr es igual), si tie
 
 ---
 ### ⚙️ Settings/Profiles
+En este caso te recomiendo borrar las preset que tienes para comenzar de 0, hacer la primera preset completa y luego copiarla y editarle los valores como las imágenes , para de ese modo no tener que reorganizar los grupos por cada preset. "Piensa dos veces y trabaja una".
 
+#### 📌 Full HD-1080p
+![image](https://github.com/user-attachments/assets/ce4c73e2-b876-4e78-9c41-967636a673df)
 
+#### 📌 HD-720p
+![image](https://github.com/user-attachments/assets/f8a5dd17-48fd-4a8f-bae8-26620f6d05e5)
+
+#### 📌 Ultra-HD
+![image](https://github.com/user-attachments/assets/4acd5c95-a136-4199-91e5-6567a012a99c)
+
+Debe quedarte así:
+![image](https://github.com/user-attachments/assets/0f5e1338-4cbd-45f7-90fc-fbf44e5b0978)
 ✍️ **Autor:** Roger  
 📌 **Última actualización:** *(Fecha de edición)*  
 🚀 **Optimizado para:** Radarr, Sonarr y ARR Suite
