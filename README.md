@@ -428,8 +428,19 @@ Ahora vamos a configurar a Sonarr, iré más al grano ya que hay que hacerle lo 
   ]
 }
 ```
+### ⚙️ Settings/Quality
+![image](https://github.com/user-attachments/assets/5630dbcd-f786-4ef3-95cf-d037f3ca23c5)
 
+### 🎯 Settings/Custom Formats
+#### 📌 Full HD-1080p
+![image](https://github.com/user-attachments/assets/9e143712-df7f-49c2-9c69-34cc60af2971)
+
+#### 📌 HD-720p
+![image](https://github.com/user-attachments/assets/70470e2c-52d9-40aa-acee-d8351793a0d6)
+
+#### 📌 Ultra-HD
+![image](https://github.com/user-attachments/assets/b7e1fc69-70f3-42b6-aebe-b9b11612c7ef)
 
 ---
-✍️ **Autor:** Roger  
-🚀 **Optimizado para:** Radarr, Sonarr y ARR Suite
+✍️ **Autor:** rogergdev  
+🚀 **Optimizado para:** Radarr, Sonarr y ARR Suite.
