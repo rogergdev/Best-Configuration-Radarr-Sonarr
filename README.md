@@ -9,7 +9,10 @@
 
 ### 🎯 Settings/Custom Formats
 Así se importan los Custom Formats en formato json (en Sonarr es igual), si tienen ya Custom Formats construidos puedes borrarlos todos y ponerlos:
-![Radarr Custom Formats Import](https://github.com/user-attachments/assets/f4b98753-e5a7-47dd-a310-0c4c1ef0e7ac)
+
+
+https://github.com/user-attachments/assets/de56b388-b177-403d-8679-89ae96c6d9fe
+
 
 #### 📌 420p
 ```json
