@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/4f91da37-679c-4989-a446-12f7b2fe1f74)
 
 ### ⚙️ Settings/IU 
-**La interfaz tiene estar en ingés**, pero puedes opcionalmente (ya que es personal, pero no necesario) puedes ajustar toda la configuración de UI como la imagen. 
+**La interfaz tiene estar en ingés**, pero puedes opcionalmente (ya que es personal, pero no necesario) ajustar toda la configuración de UI como la imagen. 
 **Tienes que habilitar Show Advanced (el engranaje en la parte superior)** para mostrar los ajustes avanzados.
 ![image](https://github.com/user-attachments/assets/757d9a65-f8fa-4ede-8524-838971bede2c)
 
