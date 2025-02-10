@@ -8,7 +8,7 @@
 ![image](https://github.com/user-attachments/assets/757d9a65-f8fa-4ede-8524-838971bede2c)
 
 ### 🎯 Settings/Custom Formats
-Así se importan los Custom Formats en formato json (en Sonarr es igual), si tienes ya Custom Formats construidos puedes borrarlos todos y ponerlos:
+Así se importan los Custom Formats en formato json (en Sonarr es igual), si tienes ya Custom Formats construidos puedes borrarlos todos y ponerlos de esta manera:
 
 
 https://github.com/user-attachments/assets/de56b388-b177-403d-8679-89ae96c6d9fe
