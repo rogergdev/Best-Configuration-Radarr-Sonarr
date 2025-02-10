@@ -213,7 +213,7 @@ https://github.com/user-attachments/assets/de56b388-b177-403d-8679-89ae96c6d9fe
 
 ---
 ### ⚙️ Settings/Profiles
-En este caso te recomiendo borrar las preset que tienes para comenzar de 0, hacer la primera preset completa y luego copiarla y editarle los valores como las imágenes , para de ese modo no tener que reorganizar los grupos por cada preset.
+En este caso te recomiendo borrar las preset que tienes para comenzar de 0, hacer la primera preset completa y luego copiarla y editarle los valores como las imágenes, para de ese modo no tener que reorganizar los grupos por cada preset.
 
 https://github.com/user-attachments/assets/345aad1e-410c-4d3b-98b7-fab7b9cea320
 
@@ -227,7 +227,7 @@ https://github.com/user-attachments/assets/345aad1e-410c-4d3b-98b7-fab7b9cea320
 ![image](https://github.com/user-attachments/assets/4acd5c95-a136-4199-91e5-6567a012a99c)
 
 ------
-Ahora vamos a configurar a Sonarr, iré más al grano ya que hay que hacerle lo mismo que hicimos a Radarr: 
+Ahora vamos a configurar a Sonarr, iré más al grano ya que hay que hacerle lo mismo que le hicimos a Radarr: 
 
 ![image](https://github.com/user-attachments/assets/e137f1a5-7dd5-4622-b38a-a3921bf02cad)
 
